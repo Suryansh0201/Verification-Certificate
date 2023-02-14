@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+import { useEffect } from 'react';
 
 function App() {
+
+  const {
+    transcript,
+    resetTranscript
+  } = useSpeechRecognition();
+
+  // useEffect(() => {
+  //   SpeechRecognition.startListening({ continuous: true })
+  // },[])
+  const start = () => {
+    SpeechRecognition.startListening({ continuous: true })
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <button onClick={start}>Start</button>
+    <button onClick={SpeechRecognition.stopListening}>Stop</button>
+      <button onClick={resetTranscript}>Reset</button>
+    <textarea className ="txt"  value={transcript}></textarea>
+    </>
   );
 }
 
