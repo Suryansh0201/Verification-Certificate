@@ -1,0 +1,42 @@
+.navbar{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    align-items: center;
+    height: 35rem;
+    background-image: url(../../images/back.jpg);
+    background-size: 100% 35rem;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -5rem;
+}
+.l-nav{
+    flex: 3;
+    display: flex;
+    margin: 3rem 0rem 0rem 2rem;
+}
+.logo{
+    width: 215px;
+    height: 75px;
+}
+.right-list{
+ display: flex;
+ align-items: center;
+ right: 15rem;
+position: relative;
+}
+.right-list>a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.right-list>a>li{
+    margin-top: 3rem;
+    gap: 3rem;
+    margin-right: 5rem;
+    color: whitesmoke;
+    list-style: none;
+}
+.right-list>a>li:nth-child(2){
+    margin-left: 10rem;
+}
