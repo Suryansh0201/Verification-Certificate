@@ -1,0 +1,24 @@
+.footer{
+    position: relative;
+    top: 47rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+background: linear-gradient(180deg, #BEE38F 0%, rgba(147, 220, 54, 0.625) 37.5%, rgba(219, 175, 122, 0.6) 64.58%, rgba(225, 153, 69, 0.63) 82.29%, rgba(237, 138, 21, 0.74) 100%);
+mix-blend-mode: normal;
+margin-bottom: 8rem;
+align-content: center;
+}
+.f-img{
+    width: 245px;
+    height: 85px;
+    margin-bottom: 9px;
+    padding-top: 3rem;
+}
+.footer>p>a{
+ text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+}
