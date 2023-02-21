@@ -14,8 +14,8 @@ const topSection = () => {
         
         <div className='r-nav'>
              <ul className='right-list'>
-                 <a  href='/'><li className='list'>Privacy Policy</li></a>
-                 <a  href='/'><li className='list'>Contact Us</li></a>
+                 <a  href='https://kartexa.com/pj/privacy-policy/' target='blank'><li className='list'>Privacy Policy</li></a>
+                 <a  href='https://kartexa.com/pj/contact/' target='blank'><li className='list'>Contact Us</li></a>
              </ul>
         </div>
        </div>

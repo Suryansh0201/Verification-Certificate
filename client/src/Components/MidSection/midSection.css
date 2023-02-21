@@ -11,9 +11,9 @@
     margin-top: 10px;
     position: absolute;
 width: 70%;
-height: 80%;
+height: 85%;
 border-radius: 10px;
-background: #FFFFED;
+background: #f4f4a2;
 mix-blend-mode: normal;
 box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 margin-left: 16rem;
@@ -32,22 +32,24 @@ width: 280px;
 height: 260px;
 mix-blend-mode: normal;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 12px;
 
 }
 .r-content{
     position: relative;
     top: 5rem;
     right: 19rem;
+    margin-bottom: 10px;
 }
 .pair{
     margin: 15px 0px;
 }
 .tittle{
-    
+    font-family: 'Inter';
 color:rgba(18, 17, 17, 1);
 mix-blend-mode: normal;
 margin-bottom: 6px;
-font-weight: 500;
+font-weight: 600;
 }
 
 .response{
@@ -57,4 +59,17 @@ font-weight: 900;
 line-height: 12px;
 color: #3672CC;
 margin-top: 3px;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons>a{
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
+.icon-img{
+   margin-left: 8px;
+}
+.icon-img:hover{
+    font-size: 35px;
 }

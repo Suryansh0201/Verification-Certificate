@@ -1,13 +1,9 @@
 import './App.css';
-import TopSection from './Components/TopSection/topSection';
-import MidSection from './Components/MidSection/midSection';
-import BottomSection from './Components/BottomSection/bottomSection'
+import ValidationPage from './Components/Pages/ValidationPage';
 function App() {
   return (
     <div className="App">
-      <TopSection/>
-      <MidSection/>
-      <BottomSection/>
+    <ValidationPage/>
     </div>
   );
 }

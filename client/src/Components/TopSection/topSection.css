@@ -40,16 +40,12 @@ position: relative;
     color: whitesmoke;
     list-style: none;
     font-weight: 600;
-    font-size:15px ;
+    font-size:25px ;
 }
 .right-list>a>li:nth-child(2){
     margin-left: 10rem;
 }
 
 .list:hover{
- background-color: whitesmoke;
- border-radius: 15px;
- color: black;
- padding: 6px 8px;
- font-size: 20px;
+ color: rgb(213, 178, 23);
 }
