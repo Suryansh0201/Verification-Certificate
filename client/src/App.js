@@ -1,9 +1,11 @@
 import './App.css';
-import ValidationPage from './Components/Pages/ValidationPage';
+//import ValidationPage from './Components/Pages/ValidationPage';
+import CredentialPage from './Components/Pages/CredentialPage/credentialPage';
 function App() {
   return (
     <div className="App">
-    <ValidationPage/>
+    {/*<ValidationPage/>*/}
+    <CredentialPage/>
     </div>
   );
 }
