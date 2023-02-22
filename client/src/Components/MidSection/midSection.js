@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 const midSection = () => {
   return (
-    <div className='main-mid'>
+    <div className='main-midSec'>
         <h1 className='heading'>Certificate Validation</h1>
         <div className='mid-content'>
             <div className='l-content'>

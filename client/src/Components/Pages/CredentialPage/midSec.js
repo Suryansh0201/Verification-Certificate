@@ -1,23 +1,13 @@
-import React /*{useState, useRef}*/ from 'react'
+import React from 'react'
 import './midSec.css'
-//import { QrReader } from 'react-qr-reader';
+import QrPage from '../qrScanner';
 import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
-import QrPage from '../a'
 
-/*function
-const qrRef = useRef(null);
-const [scanResultWebCam, setScanResultWebCam] =  useState('');
-const handleErrorWebCam = (error) => {
-    console.log(error);
-  }
-  const handleScanWebCam = (result) => {
-    if (result){
-        setScanResultWebCam(result);
-    }
-   }*/
+
 
 const midSec = () => {
-  return (
+  return(
+    
     <div className='all'>
     <div className='head'><h1>Verify Certificate</h1></div>
     <div className='main-mid'>
@@ -38,8 +28,7 @@ const midSec = () => {
 </form>
 <div className='or'>OR</div>
 <div className='scan' >
-    <a href='../a' onClick={QrPage}><QrCodeScannerSharpIcon className='scan-img'style={{fontSize:'170px',justifyItems:"center"}}
-    /></a>
+<a href='/verify/scan' ><QrCodeScannerSharpIcon className='scan-img'style={{fontSize:'170px',justifyItems:"center"}}/></a>
 </div>
     </div>
   {/*}  <QrReader
