@@ -2,7 +2,7 @@ import React from 'react'
 import './midSec.css'
 import QrPage from '../qrScanner';
 import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
-
+import ValidationPage from '../ValidationPage'
 
 
 const midSec = () => {
@@ -13,17 +13,18 @@ const midSec = () => {
     <div className='main-mid'>
         <form class="row g-3 needs-validation form" novalidate>
   <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">Certificate ID</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Enter certificate ID" required/>
+  <label for="validationCustom02" class="form-label">Certificate ID</label>
+    <input type="text" class="form-control" id="validationCustom02" placeholder='Enter certificate ID' required/>
     
   </div>
   <div class="col-md-4">
-    <label for="validationCustom02" class="form-label"> Learner Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Enter learner last name" required/>
+  <label for="validationCustom02" class="form-label">Learner Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" placeholder='Enter learner last name' required/>
     
   </div>
+
   <div class="col-12">
-    <button class="btn btn-primary" type="submit">Validate Certificate</button>
+    <button onClick='/details' class="btn btn-primary" type="submit">Validate Certificate</button>
   </div>
 </form>
 <div className='or'>OR</div>

@@ -10,8 +10,9 @@ function App() {
     <Router>
     <Routes>
 <Route exact path='/' element={<CredentialPage/>}></Route>
-<Route exact path='/verify' element={<ValidationPage/>}></Route>
 <Route exact path='/verify/scan' element={<QrPage/>}></Route>
+<Route exact path='/details' element={<ValidationPage/>}></Route>
+
 </Routes>  
     </Router>
     </div>

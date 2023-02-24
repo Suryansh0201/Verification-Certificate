@@ -10,7 +10,7 @@ const midSection = () => {
     <div className='main-midSec'>
         <h1 className='heading'>Certificate Validation</h1>
         <div className='mid-content'>
-            <div className='l-content'>
+            <div className='left-content'>
                 <img src={Photo} alt='' className='photo'/>
             </div>
             <div className='r-content'>

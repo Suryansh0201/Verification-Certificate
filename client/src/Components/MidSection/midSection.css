@@ -19,7 +19,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 margin-left: 16rem;
 margin-top: 5px;
 }
-.l-content{
+.left-content{
     flex: 3;
     margin: 9px 2px 1px 12px;
     position: relative;
@@ -37,8 +37,8 @@ border-radius: 12px;
 }
 .r-content{
     position: relative;
-    top: 5rem;
-    right: 19rem;
+    top: 3rem;
+    right: 12rem;
     margin-bottom: 10px;
 }
 .pair{
@@ -50,6 +50,7 @@ color:rgba(18, 17, 17, 1);
 mix-blend-mode: normal;
 margin-bottom: 6px;
 font-weight: 600;
+font-size: 23px;
 }
 
 .response{
@@ -59,6 +60,7 @@ font-weight: 900;
 line-height: 12px;
 color: #3672CC;
 margin-top: 3px;
+font-size: 18px;
 }
 .icons{
     margin-top: 15px;
