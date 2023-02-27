@@ -1,0 +1,46 @@
+.certi-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: absolute;
+width: 70%;
+height: 85%;
+border-radius: 10px;
+background: #f4f4a2;
+mix-blend-mode: normal;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+margin-left: 16rem;
+margin-top: 5px;
+    
+
+}
+.certi-head{
+   
+    margin-left: 8rem;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.certi-logo{
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    right: 10rem;
+}
+
+.head-content{
+    flex: 1;
+}
+.certi-mid{
+    margin: 6rem 6px 8px 5rem;
+}
+.name{
+   margin: 10px 10rem;
+   font-size: 50px;
+   font-weight: 600;
+}
+.details{
+    margin: 10px 40px;
+    font-size: 18px;
+    font-weight: 450;
+}

@@ -6,6 +6,10 @@ import ValidationPage from '../ValidationPage'
 
 
 const midSec = () => {
+  function handleSubmit(){
+    return <ValidationPage/>
+  }
+  
   return(
     
     <div className='all'>
@@ -17,14 +21,9 @@ const midSec = () => {
     <input type="text" class="form-control" id="validationCustom02" placeholder='Enter certificate ID' required/>
     
   </div>
-  <div class="col-md-4">
-  <label for="validationCustom02" class="form-label">Learner Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" placeholder='Enter learner last name' required/>
-    
-  </div>
 
   <div class="col-12">
-    <button onClick='/details' class="btn btn-primary" type="submit">Validate Certificate</button>
+    <button onSubmit={handleSubmit()} class="btn btn-primary" type="submit">Validate Certificate</button>
   </div>
 </form>
 <div className='or'>OR</div>
